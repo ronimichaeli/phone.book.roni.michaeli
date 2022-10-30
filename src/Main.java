@@ -20,7 +20,7 @@ public class Main {
         String line;
 
         do {
-            System.out.print("\n> ");
+            System.out.print("please enter your selection > ");
             line = input.nextLine().trim();
             switch (line) {
                 case "add" -> phoneBook.addContact();
@@ -58,5 +58,6 @@ public class Main {
         System.out.println("");
         System.out.println("11. help ---------- lists all valid commands");
         System.out.println("---------------------------");
+        System.out.println();
     }
 }
