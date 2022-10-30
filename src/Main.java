@@ -12,7 +12,7 @@ public class Main {
         System.out.println("PHONE BOOK");
         System.out.println("===========================");
         System.out.println("");
-        System.out.println("Type a command or 'exit' to quit:");
+        System.out.println("Type the command name or 'exit' to quit:");
         System.out.println("---------------------------");
 
         listCommands();
@@ -45,18 +45,18 @@ public class Main {
      * Print menu
      */
     private static void listCommands() {
-        System.out.println("1. add ------------ saves a new contact entry into the contact list");
-        System.out.println("2. delete --------- removes a contact from the contact list");
-        System.out.println("3. contact list --- see all of the contacts");
-        System.out.println("4. find ----------- finds a contact by name");
-        System.out.println("5. sort by name --- sorts the contact list by name");
-        System.out.println("6. sort by phone -- sorts the contact list by phone");
-        System.out.println("7. revers --------- reverses the contact list");
-        System.out.println("8. distinct ------- removes duplicates from the contact list");
-        System.out.println("9. save ----------- saves the contact list");
-        System.out.println("10. import -------- imports the contact list");
+        System.out.println(" add ------------ saves a new contact entry into the contact list");
+        System.out.println(" delete --------- removes a contact from the contact list");
+        System.out.println(" contact list --- see all of the contacts");
+        System.out.println(" find ----------- finds a contact by name");
+        System.out.println(" sort by name --- sorts the contact list by name");
+        System.out.println(" sort by phone -- sorts the contact list by phone");
+        System.out.println(" revers --------- reverses the contact list");
+        System.out.println(" distinct ------- removes duplicates from the contact list");
+        System.out.println(" save ----------- saves the contact list");
+        System.out.println(" import -------- imports the contact list");
         System.out.println("");
-        System.out.println("11. help ---------- lists all valid commands");
+        System.out.println(" help ---------- lists all valid commands");
         System.out.println("---------------------------");
         System.out.println();
     }
