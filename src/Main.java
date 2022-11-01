@@ -51,12 +51,12 @@ public class Main {
         System.out.println(" find ----------- finds a contact by name");
         System.out.println(" sort by name --- sorts the contact list by name");
         System.out.println(" sort by phone -- sorts the contact list by phone");
-        System.out.println(" revers --------- reverses the contact list");
+        System.out.println(" reverse -------- reverses the contact list");
         System.out.println(" distinct ------- removes duplicates from the contact list");
         System.out.println(" save ----------- saves the contact list");
-        System.out.println(" import -------- imports the contact list");
+        System.out.println(" import --------- imports the contact list");
         System.out.println("");
-        System.out.println(" help ---------- lists all valid commands");
+        System.out.println(" help ---------- -lists all valid commands");
         System.out.println("---------------------------");
         System.out.println();
     }
